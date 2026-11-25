@@ -11,7 +11,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/apple/swift-argument-parser.git", from: "1.2.0"),
         .package(url: "https://github.com/leviouwendijk/plate.git", branch: "master"),
-        .package(url: "https://github.com/leviouwendijk/Interfaces.git", branch: "master"),
+        .package(url: "https://github.com/swift-lco/Interfaces.git", branch: "master"),
         .package(url: "https://github.com/swift-tooling/Executable.git", branch: "master"),
     ],
     targets: [
